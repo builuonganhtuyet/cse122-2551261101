@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bốn mùa</title>
+
+    <style>
+        :root {
+            --nen: #FFFDE7;
+            --vien: #9E9E9E;
+            --xanh: #0033CC;
+            --do: #D40000;
+            --hong: #FFD9E6;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        article.khung-tho {
+            width: 640px;
+            padding: 24px;
+            background: var(--nen);
+            border: 1px solid var(--vien);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--do);
+            background: var(--hong);
+            padding: 6px 0;
+            margin: 0 0 20px;
+        }
+
+        p.kho-xanh {
+            color: var(--xanh);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        p.kho-do {
+            color: var(--do);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        hr {
+            width: 55%;
+            border: none;
+            border-top: 1px solid var(--xanh);
+        }
+    </style>
+</head>
+
+<body>
+    <article class="khung-tho">
+        <h1>BỐN MÙA</h1>
+
+        <p class="kho-xanh">
+            Xuân về hoa nở khắp trời<br>
+            Hạ sang nắng cháy rạng ngời phố quen<br>
+            Thu về lá rụng bên thềm
+        </p>
+
+        <hr>
+
+        <p class="kho-do">
+            Đông sang gió lạnh bên em đợi chờ<br>
+            Bốn mùa là bốn giấc mơ<br>
+            Thời gian đi mãi ta chờ đợi ai
+        </p>
+
+        <hr>
+
+        <p class="kho-xanh">
+            Một năm rồi lại một năm<br>
+            Vẫn còn câu hát thì thầm quê hương<br>
+            Chờ xuân nắng mới soi đường
+        </p>
+    </article>
+</body>
+</html>
